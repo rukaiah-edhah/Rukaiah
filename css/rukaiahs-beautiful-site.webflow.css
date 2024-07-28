@@ -3202,6 +3202,27 @@ blockquote {
   transform: translate(4vh, 8vh)scale(1.3)rotate(-25deg);
 }
 
+
+
+/* Media query for devices with max width of 480px */
+@media (max-width: 755px) {
+  .header-image {
+    transform: translate(1vh, 3vh) scale(1) rotate(-100deg); 
+    background-size: 200px; 
+  }
+
+  .shape-image-header {
+    width: 8rem; 
+    height: 12rem; 
+  }
+
+  .shape-image-header._2 {
+    width: 6rem; 
+    height: 10rem; 
+  }
+}
+
+
 .header-image-shape-wrapper {
   position: relative;
 }
